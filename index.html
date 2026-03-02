@@ -1,17 +1,97 @@
-
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
-    <title>Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCI 3401 - Course Specification</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="main-name">محمد شاكر الحكمي  </h1> <p class="bio-info">أدرس تخصص تفاعل الانسان مع الحاسب في جامعة ام القرى.</p> <h2>Welcome</h2>
-    <p>أتعلم لغة HTML لأنها <b>أساسية</b> لتطوير المواقع، وأتوقع أن يساعدني هذا المقرر في بناء مشاريع <i>متميزة</i> مستقبلاً.</p>
 
-    <img src="images/interest.jpg" alt="اهتماماتي" width="300">
+    <nav class="top-navbar">
+        <div class="nav-brand">UQU | Software Engineering</div>
+        <ul class="nav-links">
+            <li><a href="ar-light.html">العربية</a></li>
+            <li><a href="en-dark.html">Dark Mode</a></li>
+            <li><a href="team.html">Team Page</a></li>
+        </ul>
+    </nav>
 
-    <br>
-    <p>تعرف على اهتماماتي بشكل أكبر من <a href="about.html">هنا</a>.</p>
+    <div class="container">
+        <header class="content-card" style="text-align: center;">
+            <h1 style="border-bottom: 2px solid var(--primary); display: inline-block; padding-bottom: 10px;">Course Specification</h1>
+            <p style="margin-top: 15px;"><strong>Course Title:</strong> Data Visualization Design | <strong>Code:</strong> HCI 3401</p>
+        </header>
+
+        <section class="content-card">
+            <h2>A. General Information</h2>
+            <p><strong>Credit Hours:</strong> 4 Hours</p>
+            <p><strong>Level:</strong> 3rd Year / 5th Level</p>
+            <p><strong>Description:</strong> Focuses on designing effective data visualizations within HCI, leveraging design principles and cognitive psychology.</p>
+        </section>
+
+        <section class="content-card">
+            <h2>B. Course Learning Outcomes (CLOs)</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Code</th>
+                            <th>Outcome</th>
+                            <th>Teaching Strategy</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1.1</td><td>Knowledge of visual perception</td><td>Discussions</td></tr>
+                        <tr><td>2.1</td><td>Use of visualization tools</td><td>Lab Demonstrations</td></tr>
+                        <tr><td>3.1</td><td>Ethical judgment in design</td><td>Case Studies</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="content-card">
+            <h2>C. Course Topics</h2>
+            <ol class="topics-list">
+                <li>Introduction to Data Visualization (6 hrs)</li>
+                <li>Principles of Visual Perception (6 hrs)</li>
+                <li>Designing with Data (12 hrs)</li>
+                <li>Visualization Tools and Technologies (12 hrs)</li>
+                <li>Storytelling with Data (6 hrs)</li>
+                <li>Interaction and Animation (6 hrs)</li>
+                <li>Evaluation and Testing (6 hrs)</li>
+                <li>Accessibility in Design (6 hrs)</li>
+                <li>Advanced Topics (12 hrs)</li>
+                <li>Ethics in Data Visualization (6 hrs)</li>
+            </ol>
+        </section>
+
+        <section class="content-card">
+            <h2>D. Student Assessment</h2>
+            <div class="table-container">
+                <table>
+                    <tr><th>Activity</th><th>Week</th><th>Percentage</th></tr>
+                    <tr><td>Assignments</td><td>3-14</td><td>10%</td></tr>
+                    <tr><td>Project</td><td>3-14</td><td>30%</td></tr>
+                    <tr><td>Midterm</td><td>7-8</td><td>20%</td></tr>
+                    <tr><td>Final Exam</td><td>16-17</td><td>40%</td></tr>
+                </table>
+            </div>
+        </section>
+
+        <section class="content-card">
+            <h2>E. Learning Resources</h2>
+            <div class="ref-item">
+                <img src="book-cover.jpg" alt="Interactive Data Visualization" class="ref-img">
+                <div>
+                    <a href="https://www.amazon.com/Interactive-Data-Visualization-Web-Introduction/dp/1491921285" target="_blank" class="ref-link">
+                        Interactive Data Visualization for the Web - Scott Murray
+                    </a>
+                    <p>Essential Reference (2020)</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
 </body>
 </html>
